@@ -1,0 +1,119 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+
+}
+html{
+    background-color: #02010a;
+    height: auto;
+    width: 1300px;
+}
+@font-face {
+    font-family: 'DancingScript-Regular';
+    src: url('../fuentes/DancingScript-Regular.otf');
+}
+
+#graper{
+    width: 900px;
+    display: block;
+    position: relative;
+    margin-left: 50px;
+}
+
+
+
+header {
+    background-color: #5b7989;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    width: 1250px;
+    margin-left: 50px;
+    }
+    header h1 {
+        color: white;
+        font-family: DancingScript-Regular;
+        text-shadow: 2px 2px 2px #02010a;
+    }
+    header li {
+        display: inline;
+        text-decoration: none;
+        padding-left: 15px;
+        padding-right: 15px;
+        color: white;
+        font-family: DancingScript-Regular;
+        text-shadow: 2px 2px 2px #02010a;
+        margin-bottom: 5px;
+        padding-bottom: 5px;
+    }
+    header ul {
+        text-align: right;
+        padding-bottom: 15px;
+    }
+    header a{
+        color: white;
+    }
+section {
+    width: 1250px;
+    height: 480px;
+    display: block;
+    background-color: #82c3a6;
+    margin: auto;
+    
+}
+section img{
+    margin-top: 15px;
+    margin-left:100px;
+    position: relative;
+    width: 80%;
+    height: 93%;
+
+}
+#contenedor {
+    border: 1px solid black;
+    display: flex;
+    width: 1250px;
+    margin: 0 auto;
+    height: 400px;
+    background-color: #d5c75f;
+}
+#contenedor img {
+        margin: 0 auto;
+        position: relative;
+        margin-top: 40px;
+        width: 40%;
+        height: 75%;
+}
+#imgRetrato:hover {
+    transform: translate(5px, 20px);
+    -moz-transform: translate(5px, 20px);
+    -webkit-transform: rotate(5px, 20px);
+    box-shadow: 2px 2px 2px #82c3a6;
+    border: 2px solid;
+}
+#imgPaisaje:hover {
+    transform: rotate(10deg);
+    -moz-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    box-shadow: 2px 2px 2px  #82c3a6;
+    border: 2px solid;
+}
+footer {
+    height: 150px;
+    background-color: #C6d5c5;
+    margin: 0 auto;
+    width: 1250px;
+    font-family: DancingScript-Regular;
+    display: block;
+    border-radius: 0 0 5px 5px;
+}
+#piePagina{
+    display: flex;
+    flex-direction: row;
+}
+#piePagina li {list-style: none;}
+#Contactos{background-color: #C6d5c5; flex-grow: 1; text-align: center; height: 80px; text-decoration: none;}
+#social{ background-color: #C6d5c5;   flex-grow: 1; text-align: center;  text-decoration: none;}
+#terminos { background-color: #C6d5c5; flex-grow: 1; text-align: center; text-decoration: none;}
+#derechos {background-color: #C6d5c5; flex-grow: 1; text-align: center; }
+

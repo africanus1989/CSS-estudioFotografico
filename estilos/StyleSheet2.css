@@ -1,0 +1,21 @@
+﻿*{padding: 0; margin: 0;}
+html{background-color: #02010a; height: auto; width: 1300px;}
+@font-face {font-family: 'DancingScript-Regular'; src: url('../fuentes/DancingScript-Regular.otf');}
+header {background-color: #5b7989; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; width: 1250px; margin: auto;}
+header h1 {color: white; font-family: DancingScript-Regular; text-shadow: 2px 2px 2px #02010a;}
+header li { display: inline; padding-left: 15px; padding-right: 15px; color: white; font-family: DancingScript-Regular; text-shadow: 2px 2px 2px #02010a; margin-bottom: 5px; padding-bottom: 5px;}
+header ul {text-align: right; padding-bottom: 15px;}
+header a {color: white;}
+section{background-color:#82c3a6; width: 1250px; height: 400px; margin: 0 auto;}
+#contenedor{display: flex;  background-color: #d5c75f; height: 400px;}
+#contenedor div{background-color: #d5c75f; flex-direction: column; flex-grow: 5; width: 100%;}
+#contenedor img{width: 50%; height: auto; display: block; margin: auto;    padding-top: 20px; margin-left: 50px; padding: 20px; margin-top: 10px;}
+/*footer*/
+footer {height: 150px;background-color: #C6d5c5; margin: 0 auto; width: 1250px; font-family: DancingScript-Regular; display: block; border-radius: 0 0 5px 5px;}
+#piePagina {display: flex;flex-direction: row;}
+#piePagina li {list-style: none;}
+#Contactos {background-color: #C6d5c5; flex-grow: 1; text-align: center; height: 80px; text-decoration: none;}
+#social {background-color: #C6d5c5; flex-grow: 1; text-align: center; text-decoration: none;}
+#terminos {background-color: #C6d5c5; flex-grow: 1; text-align: center; text-decoration: none;}
+#derechos {background-color: #C6d5c5; flex-grow: 1; text-align: center;}
+
